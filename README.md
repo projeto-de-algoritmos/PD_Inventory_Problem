@@ -1,45 +1,44 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Airport_help_Dupla17
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 17<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0084642  |  Arthur Taylor de Jesus Popov |
+| 16/0125910  |  Itallo C. Gravina |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Utilização dos conceitos de programação dinâmica para otmizar o espaço de inventário otimizando o lucro obtido pelo jogador ao selecionar espólios para revenda em jogos de RPG de mesa, utilizando o algoritmo da mochila. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+* aeroporto mais próximo dentro do CSV
+
+![Antes da execução](https://github.com/projeto-de-algoritmos/DC_Airport_help_Dupla17/blob/main/assets/97b0838d-2941-48c9-856f-cbde83e82153.jpg)
+
+* posição relativa do avião
+
+![hardcoded na main](https://github.com/projeto-de-algoritmos/DC_Airport_help_Dupla17/blob/main/assets/784e1eaa-00d3-4e13-9b04-067890003a48.jpg)
+
+* distância do aeroporto
+
+![Após execução](https://github.com/projeto-de-algoritmos/DC_Airport_help_Dupla17/blob/main/assets/0d9b5fa2-2e52-42f5-b3e1-cdd47bf29d49.jpg)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: C<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+* Para compilar em C
+```
+gcc ./NomeCodigo.c 
+```
+
+* O arquivo Airpots.csv deve existir para a correta execução do código, o arquivo será nescessário para a análise dos aeroportos cadastrados e fornecer assim o mais próximo da posição atual.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+As informações de saída ficam visíveis no terminal através de um print.
 
-
+Data set: https://www.kaggle.com/datasets/moonnectar/airline-routes-92k-and-airports-10k-dataset
 
 
