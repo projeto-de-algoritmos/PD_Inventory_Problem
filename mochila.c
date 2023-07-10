@@ -46,6 +46,12 @@ void knapsack(Item itens[], int quantidadeItens, int capacidade) {
 
 int main() {
 
+    int forca = 0;
+
+    printf("Insira a força do seu personagem.\n");
+    scanf("%d",&forca);
+    int capacidade = forca * 15;
+
     FILE *inputFile;
     char inputFilename[] = "itens.csv";
 
@@ -71,11 +77,6 @@ int main() {
     }
 
     fclose(inputFile);
-
-    int peso[] = {2, 3, 4, 5};
-    int valor[] = {3, 4, 5, 6};
-    int capacidade = 30;
-    int n = sizeof(peso) / sizeof(peso[0]);
 
     knapsack(itens, quantidadeItens, capacidade);
 
