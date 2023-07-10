@@ -39,5 +39,7 @@ gcc ./NomeCodigo
 
 As informações de saída ficam visíveis no terminal através de um print.
 
+O vídeo de apresentação do projeto está disponível dentro da pasta "assets".
+
 
 
